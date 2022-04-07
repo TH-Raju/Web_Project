@@ -1,0 +1,118 @@
+body{
+    margin: 0%;
+    padding: 0px;
+    background-color: #3F869C;
+    list-style-type: none;
+}
+
+.img{
+    height: 250px;
+    width: 100%;
+}
+nav{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    color: wheat;
+}
+.nav-container li:hover{
+    color: blueviolet;
+}
+.nav-container li a:hover{
+    color: blueviolet;
+}
+.web{
+    font-size: 1.7rem;
+    font-style: italic;
+}
+
+.nav-container{
+    list-style: none;
+    width: 300px;
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+.nav-container a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.main-c{
+    width: 70%;
+    box-sizing: border-box;
+    box-shadow: 18px 20px 21px rgb(49, 48, 48);
+}
+.main-c:hover{
+    width: 75%;
+    height: 440px;
+    
+}
+
+.main-c p{
+    margin: 10px;
+    text-align: justify;
+    margin-bottom: 80px;
+}
+.main-c button{
+    
+    text-align: center;
+    margin-bottom: 5px;
+    background-color: #1aaaec;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+.main-c button a{
+    text-decoration: none;
+    
+    
+    
+      
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 35px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: #75c8ee;
+  }
+  
+  input[type=submit] {
+    background-color: #1aaaec;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    
+    padding: 20px;
+  }
